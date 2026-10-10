@@ -1,0 +1,63 @@
+{
+  "threshold": 0.5,
+  "n_risk": 541,
+  "top": [
+    {
+      "shipment_id": "SHP-100054",
+      "destination_city": "Hamilton ON",
+      "carrier": "NorthStar Carriers",
+      "risk": 0.9995723676439686
+    },
+    {
+      "shipment_id": "SHP-100510",
+      "destination_city": "Hamilton ON",
+      "carrier": "NorthStar Carriers",
+      "risk": 0.9943273707036174
+    },
+    {
+      "shipment_id": "SHP-104809",
+      "destination_city": "Calgary AB",
+      "carrier": "Contract Owner-Op",
+      "risk": 0.9919556198904843
+    },
+    {
+      "shipment_id": "SHP-102194",
+      "destination_city": "Toronto ON",
+      "carrier": "NorthStar Carriers",
+      "risk": 0.9896669867101646
+    },
+    {
+      "shipment_id": "SHP-105303",
+      "destination_city": "Hamilton ON",
+      "carrier": "NorthStar Carriers",
+      "risk": 0.9777791097822175
+    }
+  ],
+  "summary": [
+    {
+      "model": "LogReg balanced",
+      "precision": 0.4269870609981516,
+      "recall": 0.7475728155339806,
+      "f1": 0.5435294117647059
+    },
+    {
+      "model": "HistGradientBoosting",
+      "precision": 0.4881656804733728,
+      "recall": 0.5339805825242718,
+      "f1": 0.5100463678516228
+    },
+    {
+      "model": "RandomForest",
+      "precision": 0.5864197530864198,
+      "recall": 0.3074433656957929,
+      "f1": 0.4033970276008493
+    },
+    {
+      "model": "Baseline majority",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  ],
+  "model": "LogReg balanced"
+}

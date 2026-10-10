@@ -1,0 +1,8 @@
+DISPATCH ALERT: 541 high-risk shipment(s) (threshold 0.50)
+
+SHP-100054 | Hamilton ON | NorthStar Carriers | risk=1.00
+SHP-100510 | Hamilton ON | NorthStar Carriers | risk=0.99
+SHP-104809 | Calgary AB | Contract Owner-Op | risk=0.99
+SHP-102194 | Toronto ON | NorthStar Carriers | risk=0.99
+SHP-105303 | Hamilton ON | NorthStar Carriers | risk=0.98
+(+536 more above threshold)
